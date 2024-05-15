@@ -66,7 +66,7 @@ TORNADO_SETTINGS = {
     # connection instability for a small number of users. This smaller
     # ping_interval fixes that instability.
     # https://github.com/streamlit/streamlit/issues/3196
-    "websocket_ping_interval": 1,
+    "websocket_ping_interval": 20,
     # If we don't get a ping response within 30s, the connection
     # is timed out.
     "websocket_ping_timeout": 30,
